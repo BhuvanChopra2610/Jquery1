@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+</head>
+<body>
+<script>
+$(document).ready(function(){
+    $("#red").click(function(){
+        $("p").css("background-color","red");
+    });
+    $("#blue").click(function(){
+        $("p").css("background-color","blue");
+    });
+});
+</script>
+<button id="red">Red</button>
+<button id="blue">Blue</button>
+<p>I am Div</p>
+</body>
+</html>
